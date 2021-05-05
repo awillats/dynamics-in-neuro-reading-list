@@ -18,3 +18,4 @@
     </ul>
   </li>
 </ul>
+CollapsibleLists.apply();
