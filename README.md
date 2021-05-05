@@ -3,15 +3,12 @@
 ## collapsible markdown?
 
 <details>
-  <summary><details>
-  <summary>CLICK ME</summary></summary>
+  <summary>CLICK ME</summary>
 <p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
+   <details>
+    <summary>CLICK ME</summary>
+     </p>
+      inception
+     </details>
 </p>
 </details>
