@@ -2,7 +2,9 @@
 
 ## collapsible markdown?
 
-<details><summary>CLICK ME</summary>
+<details>
+  <summary><details>
+  <summary>CLICK ME</summary></summary>
 <p>
 
 #### yes, even hidden code blocks!
