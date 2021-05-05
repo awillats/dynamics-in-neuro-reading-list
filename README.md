@@ -1,4 +1,4 @@
-# dynamics-in-neuro-reading-list
+# Dynamical System Models for Neuroscience - a reading list compiled by Adam Willats
 
 ## collapsible markdown?
 
