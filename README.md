@@ -1,5 +1,7 @@
 # **Dynamical Systems (in Neuro) Reading List**
 
+# !\[\](<https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png>)
+
 # Scope:
 
 ### This reading list is mostly centered around the practical application of linear dynamical systems models to predict neural data.
@@ -30,13 +32,11 @@
 
 ### "[State-Space Models for the Analysis of Neural Spike Train and Behavioral Data](https://link.springer.com/referenceworkentry/10.1007%2F978-1-4614-7320-6_410-1)" (2016) Chen & Brown
 
-- see also:
+- see also: SSPPF - a kalman filter for point-process / spiking
 
-    - SSPPF - a kalman filter for point-process / spiking
+    - \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
 
-        - \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
-
-        - "[Estimating a state-space model from point process observations](https://pubmed.ncbi.nlm.nih.gov/12803953/)" (2003) Smith, Brown
+    - "[Estimating a state-space model from point process observations](https://pubmed.ncbi.nlm.nih.gov/12803953/)" (2003) Smith, Brown
 
 ### \[+\] "[State-Space Models](State%20space%20model)" (2013) scholarpedia page by Chen & Brown
 
@@ -132,8 +132,6 @@
 
     - also covers Gaussian (obsv.) HMM
 
-- 
-
 - HMM + guassian observation **(GaussianHMM)**
 
     - matlab [\[code\]](https://github.com/qiuqiangkong/matlab-hmm) +[\[notes\]](https://github.com/qiuqiangkong/matlab-hmm/blob/master/A%20tutorial%20of%20HMM%202015.12.06.pdf) (covers HMM, gHMM, GMM-HMM) - by Qiuqiang Kong
@@ -174,8 +172,6 @@
 
         - "[Recurrent Switching Linear Dynamical Systems for Neural and Behavioral Analysis](https://youtu.be/6E99BByFvtU)" talk by Linderman
 
-- 
-
 ### nonlinear / nonparametric / variational approaches **(vLGP, LFADS)**
 
 - variational latent gaussian process **(vLGP)**
@@ -202,7 +198,7 @@
 
 # (Latent-state) **estimation** in neuro
 
-### SSPPF - a kalman filter for point-process / spiking
+### see also: SSPPF - a kalman filter for point-process / spiking
 
 - \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
 
@@ -227,8 +223,6 @@
 - Lecture notes by K.Pelckmans "[System Identification](https://www.it.uu.se/edu/course/homepage/systemid/vt13/Sysid_s2013_1.pdf)"
 
 - "[Subspace Identification for Linear Systems](v)" (1996) Van Overschee & De Moor
-
-- 
 
 - "[System Identification Methods](https://youtu.be/YiJRgKJ0My8)" by Brian Douglas, a practical, control-focused overview in easy-to-understand terms
 
@@ -308,35 +302,29 @@
 
 - "[SSM](https://github.com/lindermanlab/ssm): Bayesian learning and inference for state space models" [\[ink](https://github.com/lindermanlab/ssm)\]
 
-- [GLMSpikeTool](https://github.com/pillowlab/GLMspiketools)s: Fitting and simulation of Poisson generalized linear model for single and multi-neuron spike trains [\[link\]](https://github.com/pillowlab/GLMspiketools)
+- Additional
 
-    - associated paper: "[Spatio-temporal correlations and visual signalling in a complete neuronal population](https://www.nature.com/articles/nature07140)"
+    - [GLMSpikeTool](https://github.com/pillowlab/GLMspiketools)s: Fitting and simulation of Poisson generalized linear model for single and multi-neuron spike trains [\[link\]](https://github.com/pillowlab/GLMspiketools)
 
-- [pop\_spike\_dyn:](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/)This repository contains different methods for linear dynamical system models with Poisson observations.
+        - associated paper: "[Spatio-temporal correlations and visual signalling in a complete neuronal population](https://www.nature.com/articles/nature07140)"
 
-    - example script: [PLDSExample.m](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/examples/PLDSExample.m)
+    - [pop\_spike\_dyn:](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/)This repository contains different methods for linear dynamical system models with Poisson observations.
 
-- 
+        - example script: [PLDSExample.m](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/examples/PLDSExample.m)
 
-- 
+    - [slinderman](https://github.com/slinderman)/[recurrent-slds](https://github.com/slinderman/recurrent-slds):
 
-- [slinderman](https://github.com/slinderman)/[recurrent-slds](https://github.com/slinderman/recurrent-slds):
+        - may be redundant with lindermanlab/ssm
 
-    - may be redundant with lindermanlab/ssm
+    - [SSIDforPLDS:](https://bitbucket.org/larsbuesing/ssidforplds/src/master/) Subspace Identification for Poisson Linear Dynamical system
 
-- 
+    - [poisson-gpfa](https://github.com/mackelab/poisson-gpfa): Gaussian process factor analysis with Poisson observations - Macke Lab
 
-- [SSIDforPLDS:](https://bitbucket.org/larsbuesing/ssidforplds/src/master/) Subspace Identification for Poisson Linear Dynamical system
+    - [hmmlearn:](https://github.com/hmmlearn/hmmlearn) set of algorithms for unsupervised learning and inference of Hidden Markov Models
 
-- [poisson-gpfa](https://github.com/mackelab/poisson-gpfa): Gaussian process factor analysis with Poisson observations - Macke Lab
+        - see also [seqlearn](https://github.com/larsmans/seqlearn): sequence learning toolkit for python
 
-- [hmmlearn:](https://github.com/hmmlearn/hmmlearn) set of algorithms for unsupervised learning and inference of Hidden Markov Models
-
-    - see also [seqlearn](https://github.com/larsmans/seqlearn): sequence learning toolkit for python
-
-- [autohmm](https://github.com/mackelab/autohmm): packages provides an implementation of Hidden Markov Models (HMMs) with tied states and autoregressive observations, written in Python
-
-- 
+    - [autohmm](https://github.com/mackelab/autohmm): packages provides an implementation of Hidden Markov Models (HMMs) with tied states and autoregressive observations, written in Python
 
 # 
 
