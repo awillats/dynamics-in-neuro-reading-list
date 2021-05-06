@@ -1,6 +1,6 @@
 # **Dynamical Systems (in Neuro) Reading List**
 
-<img src="https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png" width="400">
+# \<img src="<https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png>" width=“400”\>
 
 # Scope:
 
@@ -9,22 +9,30 @@
 ### I’ve marked papers I find to be especially useful with \[++\] or \[+\]
 
 ### see the collapsible version of this list here: [\[collapsible outline\]](https://workflowy.com/s/dynamical-systems-in/WntWnBHaHsS9lwM4)
-<!-- https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki -->
 
 # Table of Contents:
 
-* [Shortlist](#shortlist----i-only-have-time-to-read-5-papers)
-* [Overviews](#high-level---overviews-reviews-tutorials)
-* [Model types](#state-space-dynamical-systems-model-types-commonly-used-in-neuro)
-    * [(P)LDS](#linear-dynamical-systems-lds)
-    * [HMM](#hidden-markov-models-hmm)
-* [State estimations](#latent-state-estimation-in-neuro)
-* [System identification](#system-identification---fitting-lds-models)
-* [Software tools](#software-tools-for-dynamical-systems)
-* [Control](#resources-for-understanding-dynamical-systems-in-control)
-* [Stimulus optimization](#experimental-design--model-based-stimulus-optimization)
-* [Misc.](#other-reference-lists)
+### [Shortlist](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#shortlist----i-only-have-time-to-read-5-papers)
 
+### [Overviews](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#high-level---overviews-reviews-tutorials)
+
+### [Model types](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#state-space-dynamical-systems-model-types-commonly-used-in-neuro)
+
+- [(P)LDS](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#linear-dynamical-systems-lds)
+
+- [HMM](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#hidden-markov-models-hmm)
+
+### [State estimations](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#latent-state-estimation-in-neuro)
+
+### [System identification](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#system-identification---fitting-lds-models)
+
+### [Software tools](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#software-tools-for-dynamical-systems)
+
+### [Control](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#resources-for-understanding-dynamical-systems-in-control)
+
+### [Stimulus optimization](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#experimental-design--model-based-stimulus-optimization)
+
+### [Misc.](https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#other-reference-lists)
 
 # **Shortlist** - " I only have time to read 5 papers"
 
@@ -62,19 +70,7 @@
 
 - has lots of great references
 
-### 
-
-### 
-
-### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow
-
-- [part 1](https://youtu.be/NFeGW5ljUoI)
-
-- [part 2](https://youtu.be/rItGnzSHLcQ)
-
-- [slides](https://pillowlab.princeton.edu/pubs/pillow_TutorialSlides_Cosyne2018.pdf)
-
-- [code](https://github.com/pillowlab/GLMspiketraintutorial)
+### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow \[[part 1](https://youtu.be/NFeGW5ljUoI)\] \[[part 2](https://youtu.be/rItGnzSHLcQ)\] \[[slides](https://pillowlab.princeton.edu/pubs/pillow_TutorialSlides_Cosyne2018.pdf)\] \[[code](https://github.com/pillowlab/GLMspiketraintutorial)\]
 
 ### "[STATS320: Machine Learning Methods for Neural Data Analysis](https://github.com/slinderman/stats320)" course by Scott Linderman
 
@@ -106,8 +102,6 @@
 
 ### "[Introduction to Dynamical Systems](https://youtu.be/bf1264iFr-w)" lecture by Stephen Boyd
 
-### 
-
 ### additional tutorials on dynamical systems (unvetted)
 
 - [Tutorial on Dynamical System](https://cs.brown.edu/research/ai/dynamics/tutorial/Documents/LearningDynamicalSystems.html)s by Dean, Leach, Shatkay @ Brown University
@@ -121,8 +115,6 @@
 - (see high-level section)
 
 - This list was assisted / inspired by tables I saw at COSYNE, I believe from [Adam Calhoun](https://twitter.com/neuroecology?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) and [Memming Park](https://twitter.com/memming)
-
-### 
 
 ### Gaussian Process Factor Analysis **(GPFA)**
 
@@ -286,8 +278,6 @@
 
 - "[Learning Linear Dynamical Systems from Multivariate Time Series: A Matrix Factorization Based Framework](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974348.91)" Liu and Hauskrecht
 
-# 
-
 # **Software tools for dynamical systems**
 
 ### useful functions in MATLAB
@@ -343,8 +333,6 @@
         - see also [seqlearn](https://github.com/larsmans/seqlearn): sequence learning toolkit for python
 
     - [autohmm](https://github.com/mackelab/autohmm): packages provides an implementation of Hidden Markov Models (HMMs) with tied states and autoregressive observations, written in Python
-
-# 
 
 # resources for understanding dynamical systems **in control**
 
