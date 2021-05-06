@@ -47,12 +47,11 @@
 ### 
 
 ### 
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
-### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow
 
+
+<details>
+<summary>### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow </summary>
+    
 - [part 1](https://youtu.be/NFeGW5ljUoI)
 
 - [part 2](https://youtu.be/rItGnzSHLcQ)
@@ -60,6 +59,7 @@
 - [slides](https://pillowlab.princeton.edu/pubs/pillow_TutorialSlides_Cosyne2018.pdf)
 
 - [code](https://github.com/pillowlab/GLMspiketraintutorial)
+</details>
 
 ### "[STATS320: Machine Learning Methods for Neural Data Analysis](https://github.com/slinderman/stats320)" course by Scott Linderman
 
