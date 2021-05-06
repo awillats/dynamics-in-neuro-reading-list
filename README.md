@@ -48,8 +48,8 @@
 
 ### 
 
-<details><summary><h3>Tutorial: Statistical models for neural data</h3></summary>
-    - [part 1](https://youtu.be/NFeGW5ljUoI)
+<details><summary><h3> Tutorial: Statistical models for neural data</h3> </summary>
+- [part 1](https://youtu.be/NFeGW5ljUoI)
 
 - [part 2](https://youtu.be/rItGnzSHLcQ)
 
