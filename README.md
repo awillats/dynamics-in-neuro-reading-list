@@ -16,6 +16,8 @@
 * [Shortlist](#shortlist----i-only-have-time-to-read-5-papers)
 * [Overviews](#high-level---overviews-reviews-tutorials)
 * [Model types](#state-space-dynamical-systems-model-types-commonly-used-in-neuro)
+    * [(P)LDS](#linear-dynamical-systems-lds)
+    * [HMM](#hidden-markov-models-hmm)
 * [State estimations](#latent-state-estimation-in-neuro)
 * [System identification](#system-identification---fitting-lds-models)
 * [Software tools](#software-tools-for-dynamical-systems)
