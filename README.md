@@ -1,6 +1,6 @@
 # **Dynamical Systems (in Neuro) Reading List**
 
-# ![](<https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png> | width=300)
+# ![](<https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png>){:height="36px" width="36px"}
 
 # Scope:
 
