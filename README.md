@@ -10,6 +10,18 @@
 
 ### see the collapsible version of this list here: [\[collapsible outline\]](https://workflowy.com/s/dynamical-systems-in/WntWnBHaHsS9lwM4)
 
+Table of Conents:
+[Shortlist]()
+[Overviews]()
+[Model types]()
+[State estimations]()
+[System identification]()
+[Software tools]()
+[Control]()
+[Stimulus optimization]()
+[Misc.]()
+
+
 # **Shortlist** - " I only have time to read 5 papers"
 
 ### \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
