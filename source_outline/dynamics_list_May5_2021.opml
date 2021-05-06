@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+  <head>
+    <ownerEmail>
+      awillats3@gatech.edu
+    </ownerEmail>
+  </head>
+  <body>
+    <outline text="&lt;b&gt;Dynamical Systems (in Neuro) Reading List&lt;/b&gt;">
+      <outline text="&amp;lt;img src=&quot;&lt;a href=&quot;https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png&quot;&gt;https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png&lt;/a&gt;&quot; width=&quot;400&quot;&amp;gt;" />
+      <outline text="Scope:">
+        <outline text="This reading list is mostly centered around the practical application of linear dynamical systems models to predict neural data." />
+        <outline text="I've marked papers I find to be especially useful with [++] or [+] " />
+        <outline text="see the collapsible version of this list here: &lt;a href=&quot;https://workflowy.com/s/dynamical-systems-in/WntWnBHaHsS9lwM4&quot;&gt;[collapsible outline]&lt;/a&gt;" />
+      </outline>
+      <outline text="Table of Contents:">
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#shortlist----i-only-have-time-to-read-5-papers&quot;&gt;Shortlist&lt;/a&gt;" />
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#high-level---overviews-reviews-tutorials&quot;&gt;Overviews&lt;/a&gt;" />
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#state-space-dynamical-systems-model-types-commonly-used-in-neuro&quot;&gt;Model types&lt;/a&gt;">
+          <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#linear-dynamical-systems-lds&quot;&gt;(P)LDS&lt;/a&gt;" />
+          <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#hidden-markov-models-hmm&quot;&gt;HMM&lt;/a&gt;" />
+        </outline>
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#latent-state-estimation-in-neuro&quot;&gt;State estimations&lt;/a&gt;" />
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#system-identification---fitting-lds-models&quot;&gt;System identification&lt;/a&gt;" />
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#software-tools-for-dynamical-systems&quot;&gt;Software tools&lt;/a&gt;" />
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#resources-for-understanding-dynamical-systems-in-control&quot;&gt;Control&lt;/a&gt;" />
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#experimental-design--model-based-stimulus-optimization&quot;&gt;Stimulus optimization&lt;/a&gt;" />
+        <outline text="&lt;a href=&quot;https://github.com/awillats/dynamics-in-neuro-reading-list/blob/main/README.md#other-reference-lists&quot;&gt;Misc.&lt;/a&gt;" />
+      </outline>
+      <outline text="&lt;b&gt;Shortlist &lt;/b&gt;- &quot; I only have time to read 5 papers&quot; ">
+        <outline text="[++] &quot;&lt;a href=&quot;https://link.springer.com/article/10.1007/s10827-009-0179-x&quot;&gt;A new look at state-space models for neural data&lt;/a&gt;&quot; (2010) Paninski et al." />
+        <outline text="[++] &quot;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt;Empirical&lt;/a&gt;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt; &lt;/a&gt;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt;models&lt;/a&gt;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt; of spiking in neural populations&lt;/a&gt;&quot; (2011) Macke et al." />
+        <outline text="[++] &quot;&lt;a href=&quot;https://science.sciencemag.org/content/354/6316/1140&quot;&gt;Selective modulation of cortical state during spatial attention&lt;/a&gt;&quot; (2016) Engel et al.">
+          <outline text="&lt;a href=&quot;https://science.sciencemag.org/content/sci/suppl/2016/12/01/354.6316.1140.DC1/Engel-SM.pdf&quot;&gt;[Supplement]&lt;/a&gt; contains excellent methods details, including comparison of HMM to GPFA, and measuring performance as a function of number of discrete states" />
+        </outline>
+        <outline text="[++] &quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/15070506/&quot;&gt;Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering&lt;/a&gt;&quot; (2004) Eden et al." />
+        <outline text="[+] &quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/30523833/&quot;&gt;Multiscale modeling and decoding algorithms for spike-field activity&lt;/a&gt;&quot; Hsieh ... Shanechi" />
+        <outline text="&lt;a href=&quot;https://github.com/lindermanlab/ssm&quot;&gt;ldsCtrlEst:&lt;/a&gt; dynamical system estimation &amp;amp; control library - Stanley Rozell labs:&lt;a href=&quot;https://stanley-rozell.github.io/lds-ctrl-est/&quot;&gt;[docs]&lt;/a&gt; &lt;a href=&quot;https://github.com/stanley-rozell/lds-ctrl-est&quot;&gt;[code]&lt;/a&gt;">
+          <outline text="primarily focused on implementing dynamical systems within systems neuroscience experiments" />
+        </outline>
+      </outline>
+      <outline text="&lt;b&gt;High Level - Overviews, Reviews, Tutorials&lt;/b&gt;">
+        <outline text="[++] &quot;&lt;a href=&quot;https://link.springer.com/article/10.1007/s10827-009-0179-x&quot;&gt;A new look at state-space models for neural data&lt;/a&gt;&quot; (2010) Paninski et al." />
+        <outline text="&quot;&lt;a href=&quot;https://link.springer.com/referenceworkentry/10.1007%2F978-1-4614-7320-6_410-1&quot;&gt;State-Space Models for the Analysis of Neural Spike Train and Behavioral Data&lt;/a&gt;&quot; (2016) Chen &amp;amp; Brown">
+          <outline text="see also: SSPPF - a kalman filter for point-process / spiking">
+            <outline text="[++] &quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/15070506/&quot;&gt;Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering&lt;/a&gt;&quot; (2004) Eden et al." />
+            <outline text="&quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/12803953/&quot;&gt;Estimating a state-space model from point process observations&lt;/a&gt;&quot; (2003) Smith, Brown" />
+          </outline>
+        </outline>
+        <outline text="[+] &quot;&lt;a href=&quot;State space model&quot;&gt;State-Space Models&lt;/a&gt;&quot; (2013) scholarpedia page by Chen &amp;amp; Brown">
+          <outline text="discusses model variants, fitting, applications" />
+          <outline text="has lots of great references" />
+        </outline>
+        <outline text="&lt;a href=&quot;https://youtu.be/NFeGW5ljUoI&quot;&gt;Tutorial: Statistical models for neural data&lt;/a&gt; - Jonathan Pillow [&lt;a href=&quot;https://youtu.be/NFeGW5ljUoI&quot;&gt;part 1&lt;/a&gt;] [&lt;a href=&quot;https://youtu.be/rItGnzSHLcQ&quot;&gt;part 2&lt;/a&gt;] [&lt;a href=&quot;https://pillowlab.princeton.edu/pubs/pillow_TutorialSlides_Cosyne2018.pdf&quot;&gt;slides&lt;/a&gt;] [&lt;a href=&quot;https://github.com/pillowlab/GLMspiketraintutorial&quot;&gt;code&lt;/a&gt;]" />
+        <outline text="&quot;&lt;a href=&quot;https://github.com/slinderman/stats320&quot;&gt;STATS320: Machine Learning Methods for Neural Data Analysis&lt;/a&gt;&quot; course by Scott Linderman">
+          <outline text="includes code labs:">
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_1_Spike_Sorting.ipynb&quot;&gt;A simple spike sorting algorithm&lt;/a&gt;" />
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_2_Spike_Sorting_with_Deconvolution.ipynb&quot;&gt;Kilosort: Spike sorting by Deconvolution&lt;/a&gt; " />
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_3_Calcium_demixing_and_deconvolution.ipynb&quot;&gt;CNMF: Calcium deconvolution via constrained NMF&lt;/a&gt;" />
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_4_Markerless_pose_tracking.ipynb&quot;&gt;DeepLabCut: Markerless pose tracking with CNNs&lt;/a&gt;" />
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_5_Encoding_models_of_retinal_ganglion_cells.ipynb&quot;&gt;DeepRetina: Deep encoding models of retinal spike trains&lt;/a&gt;" />
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_6_Decoding_movement_from_motor_cortex_recordings.ipynb&quot;&gt;Kalman Smoothers: Decoding movement from neural data&lt;/a&gt;" />
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_7_Autoregressive_Hidden_Markov_Models_of_Behavior.ipynb&quot;&gt;MoSeq: Autoregressive HMMs for animal movements&lt;/a&gt; " />
+            <outline text="&lt;a href=&quot;https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_8_Latent_Variable_Models,_Variational_EM,_and_Worm_Brains.ipynb&quot;&gt;SLDS: Switching LDS model of neural data&lt;/a&gt;" />
+          </outline>
+        </outline>
+        <outline text="&quot;&lt;a href=&quot;https://github.com/ebatty/MathToolsforNeuroscience&quot;&gt;Math Tools for Neuroscience&lt;/a&gt;&quot; - Ella Batty">
+          <outline text="video lectures &amp;amp; code tutorials" />
+          <outline text="great visual explanations" />
+          <outline text="see especially: Intro to dynamical systems  " />
+        </outline>
+        <outline text="&quot;&lt;a href=&quot;https://youtu.be/bf1264iFr-w&quot;&gt;Introduction to Dynamical Systems&lt;/a&gt;&quot; lecture by Stephen Boyd " />
+        <outline text="additional tutorials on dynamical systems (unvetted)">
+          <outline text="&lt;a href=&quot;https://cs.brown.edu/research/ai/dynamics/tutorial/Documents/LearningDynamicalSystems.html&quot;&gt;Tutorial on Dynamical System&lt;/a&gt;s by Dean, Leach, Shatkay @ Brown University" />
+          <outline text="&lt;a href=&quot;https://www.ini.rub.de/upload/file/1470703075_a4643fac24cb4e73582b/03_Dynamical_systems_tutorial.pdf&quot;&gt;Dynamical Systems Tutorial&lt;/a&gt; by Gregor Schöner" />
+        </outline>
+      </outline>
+      <outline text="&lt;b&gt;State-space, dynamical systems model types &lt;/b&gt;commonly used in neuro">
+        <outline text="Note: Most of these approaches fall under the umbrella of &quot;state space models&quot; (SSM)">
+          <outline text="(see high-level section)" />
+          <outline text="This list was assisted / inspired by tables I saw at COSYNE, I believe from &lt;a href=&quot;https://twitter.com/neuroecology?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&quot;&gt;Adam Calhoun&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/memming&quot;&gt;Memming Park&lt;/a&gt;" />
+        </outline>
+        <outline text="Gaussian Process Factor Analysis&lt;b&gt; (GPFA)&lt;/b&gt;">
+          <outline text="primarily used for dimensionality reduction" />
+          <outline text="[++] &quot;&lt;a href=&quot;https://journals.physiology.org/doi/full/10.1152/jn.90941.2008&quot;&gt;Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity&lt;/a&gt;&quot; (2009) Yu et al." />
+          <outline text="&quot;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/331751v1.full.pdf&quot;&gt;Temporal alignment and latent Gaussian process factor inference in population spike trains&lt;/a&gt;&quot; Duncker &amp;amp; Sahani" />
+          <outline text="&lt;a href=&quot;https://elephant.readthedocs.io/en/latest/tutorials/gpfa.html&quot;&gt;&quot;Tutorial: GPFA (Gaussian Process Factor Analysis)&quot;&lt;/a&gt;" />
+        </outline>
+        <outline text="Hidden Markov Models&lt;b&gt; (HMM)&lt;/b&gt;">
+          <outline text="[++] &quot;&lt;a href=&quot;https://direct.mit.edu/neco/article/23/5/1071/7663/Hidden-Markov-Models-for-the-Stimulus-Response&quot;&gt;Hidden Markov Models for the Stimulus-Response Relationships of Multistate Neural Systems&lt;/a&gt;&quot; Escola et al.">
+            <outline text="extensive, tutorial style paper" />
+          </outline>
+          <outline text="[++] &quot;&lt;a href=&quot;https://science.sciencemag.org/content/354/6316/1140&quot;&gt;Selective modulation of cortical state during spatial attention&lt;/a&gt;&quot; (2016) Engel et al.">
+            <outline text="&lt;a href=&quot;https://science.sciencemag.org/content/sci/suppl/2016/12/01/354.6316.1140.DC1/Engel-SM.pdf&quot;&gt;[Supplement]&lt;/a&gt; contains excellent methods details, including comparison of HMM to GPFA, and measuring performance as a function of number of discrete states" />
+          </outline>
+          <outline text="&quot;&lt;a href=&quot;https://github.com/slinderman/stats320/blob/main/lectures/lecture12.pdf&quot;&gt;Lecture 12: EM and Hidden Markov Models&lt;/a&gt;&quot; - Linderman">
+            <outline text="from Machine Learning Methods for Neural Data Analysis" />
+            <outline text="also covers Gaussian (obsv.) HMM" />
+          </outline>
+          <outline text="HMM + guassian observation&lt;b&gt; (GaussianHMM)&lt;/b&gt;">
+            <outline text="matlab &lt;a href=&quot;https://github.com/qiuqiangkong/matlab-hmm&quot;&gt;[code]&lt;/a&gt; +&lt;a href=&quot;https://github.com/qiuqiangkong/matlab-hmm/blob/master/A%20tutorial%20of%20HMM%202015.12.06.pdf&quot;&gt;[notes]&lt;/a&gt; (covers HMM, gHMM, GMM-HMM) - by Qiuqiang Kong" />
+            <outline text="HMM + mixture of gaussian observations&lt;b&gt; (GMM-HMM)&lt;/b&gt;">
+              <outline text="&quot;&lt;a href=&quot;https://www.inf.ed.ac.uk/teaching/courses/asr/2016-17/asr03-hmmgmm-handout.pdf&quot;&gt;HMM &amp;amp; gaussian mixture models&lt;/a&gt;&quot; lecture notes by Shimodaira &amp;amp; Renals" />
+            </outline>
+          </outline>
+        </outline>
+        <outline text="linear dynamical systems &lt;b&gt;(LDS)  &lt;/b&gt;">
+          <outline text="Gaussian observations &lt;b&gt;(GLDS)&lt;/b&gt;" />
+          <outline text="Poisson observations &lt;b&gt;(PLDS)&lt;/b&gt;">
+            <outline text="[++] &quot;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt;Empirical&lt;/a&gt;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt; &lt;/a&gt;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt;models&lt;/a&gt;&lt;a href=&quot;https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf&quot;&gt; of spiking in neural populations&lt;/a&gt;&quot; (2011) Macke et al." />
+            <outline text="fitting toolbox:">
+              <outline text="&lt;a href=&quot;https://bitbucket.org/mackelab/pop_spike_dyn/src/master/&quot;&gt;pop_spike_dyn:&lt;/a&gt;This repository contains different methods for linear dynamical system models with Poisson observations.">
+                <outline text="example script: &lt;a href=&quot;https://bitbucket.org/mackelab/pop_spike_dyn/src/master/examples/PLDSExample.m&quot;&gt;PLDSExample.m&lt;/a&gt;" />
+              </outline>
+            </outline>
+          </outline>
+          <outline text="generalized count&lt;b&gt; (GC LDS)&lt;/b&gt; and nonlinear function &lt;b&gt;(fLDS)&lt;/b&gt;">
+            <outline text="&lt;a href=&quot;https://stat.columbia.edu/~cunningham/pdf/GaoNIPS2015.pdf&quot;&gt;&quot;High-dimensional neural spike train analysis with generalized count linear dynamical systems&quot;&lt;/a&gt; (2015) Gao et al." />
+            <outline text="&quot;&lt;a href=&quot;https://arxiv.org/pdf/1605.08454.pdf&quot;&gt;Linear dynamical neural population models through nonlinear embeddings&lt;/a&gt;&quot;  (2016) Gao et al. " />
+          </outline>
+          <outline text="Switched dynamical systems &lt;b&gt;(SLDS) &lt;/b&gt;- switches between multiple LDS models to capture distinct regimes of dynamical behavior">
+            <outline text="[+] &quot;&lt;a href=&quot;https://proceedings.neurips.cc/paper/2011/file/2d6cc4b2d139a53512fb8cbb3086ae2e-Paper.pdf&quot;&gt;Dynamical segmentation of single trials from population neural data&lt;/a&gt;&quot; Petreska et al." />
+            <outline text="Recurrent SLDS &lt;b&gt;(rSLDS)&lt;/b&gt;">
+              <outline text="&quot;The recurrent SLDS introduces an additional dependency between the discrete and continuous latent states, allowing the discrete state probability to depend upon the previous continuous state&quot; - Linderman" />
+              <outline text="[++] &quot;&lt;a href=&quot;https://arxiv.org/pdf/1610.08466.pdf&quot;&gt;Recurrent switching linear dynamical systems&lt;/a&gt;&quot; Linderman et al." />
+              <outline text="&quot;&lt;a href=&quot;https://youtu.be/6E99BByFvtU&quot;&gt;Recurrent Switching Linear Dynamical Systems for Neural and Behavioral Analysis&lt;/a&gt;&quot; talk by Linderman" />
+            </outline>
+          </outline>
+        </outline>
+        <outline text="nonlinear / nonparametric / variational approaches&lt;b&gt; (vLGP, LFADS)&lt;/b&gt;">
+          <outline text="variational latent gaussian process&lt;b&gt; (vLGP)&lt;/b&gt;">
+            <outline text="&quot;&lt;a href=&quot;https://arxiv.org/pdf/1604.03053.pdf&quot;&gt;Variational Latent Gaussian Process for Recovering Single-Trial Dynamics from Population Spike Trains&lt;/a&gt; &quot; (2017) Zhao &amp;amp; Park &lt;a href=&quot;https://github.com/catniplab/vlgp&quot;&gt;[code]&lt;/a&gt;" />
+            <outline text="&lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/fncom.2020.00071/full&quot;&gt;&quot;Variational Online Learning of Neural Dynamics&quot;&lt;/a&gt; Zhao &amp;amp; Park &lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/fncom.2020.00071/full&quot;&gt;[paper]&lt;/a&gt;[&lt;a href=&quot;https://github.com/catniplab/vjf&quot;&gt;code]&lt;/a&gt;" />
+          </outline>
+          <outline text="Variational Inference for Nonlinear Dynamics &lt;b&gt;(VIND)&lt;/b&gt;">
+            <outline text="&quot;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt;Black&lt;/a&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt; &lt;/a&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt;box&lt;/a&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt; variational inference for state space models&lt;/a&gt;&quot; (2015) Archer et al." />
+            <outline text="&quot;&lt;a href=&quot;https://openreview.net/forum?id=SJMO2iCct7&quot;&gt;A Novel Variational Family for Hidden Nonlinear Markov Models&lt;/a&gt;&quot; (2018) Hernandez et al." />
+          </outline>
+          <outline text="Latent Factor Analysis via Dynamical Systems&lt;b&gt; (LFADS) &lt;/b&gt;">
+            <outline text="[++] &quot;&lt;a href=&quot;https://arxiv.org/abs/1608.06315&quot;&gt;LFADS - Latent Factor Analysis via Dynamical Systems&lt;/a&gt;&quot; Sussillo et al. &lt;a href=&quot;https://lfads.github.io/lfads-run-manager/&quot;&gt;[code &amp;amp; documentation]&lt;/a&gt;">
+              <outline text="&quot;&lt;a href=&quot;https://www.nature.com/articles/s41592-018-0109-9&quot;&gt;Inferring single-trial neural population dynamics using sequential auto-encoders&lt;/a&gt;&quot; Pandarinath et al." />
+            </outline>
+          </outline>
+          <outline text="See also: Recurrent Neural Networks &lt;b&gt;(RNN) &lt;/b&gt;">
+            <outline text="&quot;&lt;a href=&quot;https://docs.google.com/presentation/d/1HNpeTMkvUsBZubTg0YIa9kBxM2uJ5Iprii4HxZJh5g0/edit?usp=sharing&quot;&gt;Recurrent Neural Networks&lt;/a&gt;&quot; Lecture slides &amp;amp; references by &lt;a href=&quot;https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021&quot;&gt;Adam Willats&lt;/a&gt;" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="(Latent-state) &lt;b&gt;estimation&lt;/b&gt; in neuro">
+        <outline text="see also: SSPPF - a kalman filter for point-process / spiking">
+          <outline text="[++] &quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/15070506/&quot;&gt;Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering&lt;/a&gt;&quot; (2004) Eden et al." />
+          <outline text="&quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/12803953/&quot;&gt;Estimating a state-space model from point process observations&lt;/a&gt;&quot; (2003) Smith, Brown" />
+        </outline>
+        <outline text="estimation from spikes + local field potentials (LFP)">
+          <outline text="[+] &quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/30523833/&quot;&gt;Multiscale modeling and decoding algorithms for spike-field activity&lt;/a&gt;&quot; Hsieh ... Shanechi" />
+        </outline>
+      </outline>
+      <outline text="&lt;b&gt;System identification &lt;/b&gt;- fitting LDS models:">
+        <outline text="overviews: ">
+          <outline text="&quot;System Identification&quot; Lennary Ljung - canonical text on system ID, author is the architect of MATLAB's sys ID toolbox">
+            <outline text="&quot;&lt;a href=&quot;https://arxiv.org/pdf/1902.00683.pdf&quot;&gt;Nonlinear System Identification: A User-Oriented Roadmap&lt;/a&gt;&quot;  Schoukens &amp;amp; Ljung" />
+            <outline text="&quot;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1474667016400984&quot;&gt;Perspectives on System Identification&lt;/a&gt;&quot; Ljung" />
+          </outline>
+          <outline text="Overview by S.Brunton - &quot;&lt;a href=&quot;https://www.youtube.com/watch?v=6F2YVsT9dOs&amp;list=PLMrJAkhIeNNQkv98vuPjO2X2qJO_UPeWR&amp;index=3&amp;ab_channel=SteveBrunton&quot;&gt;Data-Driven Control: Linear System Identification&lt;/a&gt;&quot;" />
+          <outline text="Lecture notes by K.Pelckmans &quot;&lt;a href=&quot;https://www.it.uu.se/edu/course/homepage/systemid/vt13/Sysid_s2013_1.pdf&quot;&gt;System Identification&lt;/a&gt;&quot;" />
+          <outline text="&quot;&lt;a href=&quot;v&quot;&gt;Subspace Identification for Linear Systems&lt;/a&gt;&quot; (1996) Van Overschee &amp;amp; De Moor " />
+          <outline text="&quot;&lt;a href=&quot;https://youtu.be/YiJRgKJ0My8&quot;&gt;System Identification Methods&lt;/a&gt;&quot; by Brian Douglas, a practical, control-focused overview in easy-to-understand terms">
+            <outline text="see also &quot;&lt;a href=&quot;https://youtu.be/580A8gNFOdk&quot;&gt;Modeling Physical Systems, An Overview&lt;/a&gt;&quot; " />
+          </outline>
+          <outline text="&lt;a href=&quot;http://www.pvandenhof.nl/5smb0-system-identification-data-driven-modeling/&quot;&gt;&quot;System Identification - Data-Driven Modelling of Dynamic Systems&lt;/a&gt;&quot; - Paul Van den Hof">
+            <outline text="extensive, discusses the challenges of &lt;a href=&quot;Closed-loop identification&quot;&gt;identificaiton in closed-loop&lt;/a&gt;" />
+            <outline text="course page: &lt;a href=&quot;http://www.pvandenhof.nl/5smb0-system-identification-data-driven-modeling/&quot;&gt;[link]&lt;/a&gt;">
+              <outline text="includes lectures &amp;amp; exercises" />
+            </outline>
+            <outline text="lecture notes: &lt;a href=&quot;http://www.publications.pvandenhof.nl/5SMB0/ManuscrSysid_Febr2020.pdf&quot;&gt;[link]&lt;/a&gt;" />
+          </outline>
+        </outline>
+        <outline text="application in neuro:">
+          <outline text="&quot;&lt;a href=&quot;https://books.google.com/books?hl=en&amp;lr=&amp;id=1Z2NCgAAQBAJ&amp;oi=fnd&amp;pg=PA137&amp;dq=info:Vk13wLtuAuwJ:scholar.google.com&amp;ots=mEpNFjdcd9&amp;sig=t__tJD-FAdvvCD2DxdmXBUCbLvo#v=onepage&amp;q&amp;f=false&quot;&gt;Estimating state and parameters in state space models of spike trains&lt;/a&gt;&quot; Macke, Buesing, Sahani">
+            <outline text="chapter in &quot;Advanced State-Space Methods for Neural and Clinical Data&quot;" />
+            <outline text="Subspace-ID for GLDS" />
+            <outline text="Subspace-ID for PLDS" />
+          </outline>
+          <outline text="&quot;&lt;a href=&quot;https://pure.mpg.de/rest/items/item_2346638/component/file_2346637/content&quot;&gt;Spectral learning of linear dynamics from generalised-linear observations with application to neural population data&lt;/a&gt;&quot; Buesing, Macke, Sahani">
+            <outline text="see also: " />
+          </outline>
+          <outline text="&quot;&lt;a href=&quot;https://www.mackelab.org/pubs/Nonnenmacher_Turaga_NIPS_2017.pdf&quot;&gt;Extracting low-dimensional dynamics from multiple large-scale neural population recordings by learning to predict correlations&lt;/a&gt;&quot; Nonnenmacher et al." />
+          <outline text="&quot;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt;Black&lt;/a&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt; &lt;/a&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt;box&lt;/a&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.07367&quot;&gt; variational inference for state space models&lt;/a&gt;&quot; (2015) Archer et al." />
+          <outline text="&quot;&lt;a href=&quot;https://github.com/slinderman/stats320/blob/main/lectures/lecture14.pdf&quot;&gt;Variational EM for SLDS (switching linear dynamical systems&lt;/a&gt;)&quot; Lecture by Linderman" />
+        </outline>
+        <outline text="contstrained &amp;amp; regularized LDS identification">
+          <outline text="[++] &quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/22663075/&quot;&gt;Learning stable, regularised latent models of neural population dynamics&lt;/a&gt;&quot; Buesing, Macke, Sahani" />
+          <outline text="&quot;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4402162/&quot;&gt;A Regularized Linear Dynamical System Framework for Multivariate Time Series Analysis&lt;/a&gt;&quot; Liu and Hauskrecht" />
+          <outline text="&quot;&lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/948469?casa_token=sLJOTFbUY-UAAAAA:FD1H2A-Lww0PUFbaMsTIPZF7m8tKqOoQcdFk4OAOzOoEJ7zEW3XkBRUvVM-mTr1MASLKJdKS&quot;&gt;Identification of stable models in subspace identification by using regularization&lt;/a&gt;&quot; Gestel et al." />
+          <outline text="&quot;&lt;a href=&quot;https://epubs.siam.org/doi/pdf/10.1137/1.9781611974348.91&quot;&gt;Learning Linear Dynamical Systems from Multivariate Time Series: A Matrix Factorization Based Framework&lt;/a&gt;&quot; Liu and Hauskrecht" />
+        </outline>
+      </outline>
+      <outline text="&lt;b&gt;Software tools for dynamical systems&lt;/b&gt;">
+        <outline text="useful functions in MATLAB">
+          <outline text="&lt;a href=&quot;https://www.mathworks.com/help/control/ref/ss.html&quot;&gt;`ss()`&lt;/a&gt; to build models">
+            <outline text="&lt;a href=&quot;https://www.mathworks.com/help/control/ref/rss.html&quot;&gt;`rss()`&lt;/a&gt; to generate random models" />
+          </outline>
+          <outline text="&lt;a href=&quot;https://www.mathworks.com/help/ident/ref/ssest.html?searchHighlight=ssest&amp;s_tid=srchtitle&quot;&gt;`ssest()`&lt;/a&gt; and &lt;a href=&quot;https://www.mathworks.com/help/ident/ref/ssregest.html&quot;&gt;`ssregest()`&lt;/a&gt; to fit models">
+            <outline text="&lt;a href=&quot;https://www.mathworks.com/help/control/ref/ss.modred.html?searchHighlight=modred&amp;s_tid=srchtitle&quot;&gt;`modred()`&lt;/a&gt; to reduce model order">
+              <outline text="see also &lt;a href=&quot;https://www.mathworks.com/help/control/ref/lti.balred.html?searchHighlight=balred&amp;s_tid=srchtitle&quot;&gt;`balred()`&lt;/a&gt;, &lt;a href=&quot;https://www.mathworks.com/help/control/ref/modelreducer-app.html&quot;&gt;Model Reducer app&lt;/a&gt;" />
+            </outline>
+          </outline>
+          <outline text="for fitting nonlinearities: &lt;a href=&quot;https://www.mathworks.com/help/curvefit/curvefitting-app.html?searchHighlight=cftool&amp;s_tid=srchtitle&quot;&gt;`cftool()`&lt;/a&gt; and &lt;a href=&quot;https://www.mathworks.com/help/curvefit/fit.html?searchHighlight=fit&amp;s_tid=srchtitle&quot;&gt;`fit()`&lt;/a&gt;" />
+          <outline text="&lt;a href=&quot;https://www.mathworks.com/help/matlab/ref/eig.html?searchHighlight=eig&amp;s_tid=srchtitle&quot;&gt;`eig`,&lt;/a&gt; &lt;a href=&quot;https://www.mathworks.com/help/control/ref/lti.pzmap.html?searchHighlight=pzmap&amp;s_tid=srchtitle&quot;&gt;`pzmap`&lt;/a&gt; for inspecting eignevalues (and eigenvectors) of a system" />
+        </outline>
+        <outline text="Other software for dynamical system modeling (mostly Python)">
+          <outline text="&lt;a href=&quot;https://github.com/lindermanlab/ssm&quot;&gt;ldsCtrlEst:&lt;/a&gt; dynamical system estimation &amp;amp; control library - Stanley Rozell labs:&lt;a href=&quot;https://stanley-rozell.github.io/lds-ctrl-est/&quot;&gt;[docs]&lt;/a&gt; &lt;a href=&quot;https://github.com/stanley-rozell/lds-ctrl-est&quot;&gt;[code]&lt;/a&gt;">
+            <outline text="primarily focused on implementing dynamical systems within systems neuroscience experiments" />
+          </outline>
+          <outline text="&lt;a href=&quot;https://github.com/stanley-rozell/hmm&quot;&gt;hmm:&lt;/a&gt; generation &amp;amp; decoding of hidden markov models &lt;a href=&quot;https://stanley-rozell.github.io/hmm/&quot;&gt;[docs]&lt;/a&gt; &lt;a href=&quot;https://github.com/stanley-rozell/hmm&quot;&gt;[code]&lt;/a&gt;" />
+          <outline text="&lt;a href=&quot;https://github.com/probml/pmtk3&quot;&gt;pmtk3&lt;/a&gt;: probabilistic machine learning ">
+            <outline text="usupported as of 2019, succeeded by &lt;a href=&quot;https://github.com/probml/pyprobml&quot;&gt;PyProbML&lt;/a&gt;" />
+          </outline>
+          <outline text="&quot;&lt;a href=&quot;https://github.com/lindermanlab/ssm&quot;&gt;SSM&lt;/a&gt;: Bayesian learning and inference for state space models&quot; &lt;a href=&quot;https://github.com/lindermanlab/ssm&quot;&gt;[ink&lt;/a&gt;] " />
+          <outline text="Additional">
+            <outline text="&lt;a href=&quot;https://github.com/pillowlab/GLMspiketools&quot;&gt;GLMSpikeTool&lt;/a&gt;s: Fitting and simulation of Poisson generalized linear model for single and multi-neuron spike trains &lt;a href=&quot;https://github.com/pillowlab/GLMspiketools&quot;&gt;[link]&lt;/a&gt; ">
+              <outline text="associated paper: &quot;&lt;a href=&quot;https://www.nature.com/articles/nature07140&quot;&gt;Spatio-temporal correlations and visual signalling in a complete neuronal population&lt;/a&gt;&quot;" />
+            </outline>
+            <outline text="&lt;a href=&quot;https://bitbucket.org/mackelab/pop_spike_dyn/src/master/&quot;&gt;pop_spike_dyn:&lt;/a&gt;This repository contains different methods for linear dynamical system models with Poisson observations.">
+              <outline text="example script: &lt;a href=&quot;https://bitbucket.org/mackelab/pop_spike_dyn/src/master/examples/PLDSExample.m&quot;&gt;PLDSExample.m&lt;/a&gt;" />
+            </outline>
+            <outline text="&lt;a href=&quot;https://github.com/slinderman&quot;&gt;slinderman&lt;/a&gt;/&lt;a href=&quot;https://github.com/slinderman/recurrent-slds&quot;&gt;recurrent-slds&lt;/a&gt;: ">
+              <outline text="may be redundant with lindermanlab/ssm" />
+            </outline>
+            <outline text="&lt;a href=&quot;https://bitbucket.org/larsbuesing/ssidforplds/src/master/&quot;&gt;SSIDforPLDS:&lt;/a&gt; Subspace Identification for Poisson Linear Dynamical system" />
+            <outline text="&lt;a href=&quot;https://github.com/mackelab/poisson-gpfa&quot;&gt;poisson-gpfa&lt;/a&gt;: Gaussian process factor analysis with Poisson observations - Macke Lab " />
+            <outline text="&lt;a href=&quot;https://github.com/hmmlearn/hmmlearn&quot;&gt;hmmlearn:&lt;/a&gt; set of algorithms for unsupervised learning and inference of Hidden Markov Models">
+              <outline text="see also &lt;a href=&quot;https://github.com/larsmans/seqlearn&quot;&gt;seqlearn&lt;/a&gt;: sequence learning toolkit for python" />
+            </outline>
+            <outline text="&lt;a href=&quot;https://github.com/mackelab/autohmm&quot;&gt;autohmm&lt;/a&gt;: packages provides an implementation of Hidden Markov Models (HMMs) with tied states and autoregressive observations, written in Python" />
+          </outline>
+        </outline>
+      </outline>
+      <outline text="resources for understanding dynamical systems &lt;b&gt;in control&lt;/b&gt;">
+        <outline text="&lt;a href=&quot;https://ctms.engin.umich.edu/CTMS/index.php?aux=Home&quot;&gt;UMich - Control tutorials for MATLAB and Simulink&lt;/a&gt;">
+          <outline text=" these controls tutorials by UMich are excellent, and involve some discussion of state-space representation of dynamical systems" />
+        </outline>
+        <outline text="&lt;a href=&quot;http://web.mit.edu/nsl/www/videos/lectures.html&quot;&gt;Nonlinear control lectures - Slotine @ MIT&lt;/a&gt;">
+          <outline text="good at bridging the intuitive and mathematical concepts" />
+          <outline text="topics include:">
+            <outline text="stability analysis (of nonlinear, time-varying systems)" />
+            <outline text="robust &amp;amp; adaptive control" />
+          </outline>
+        </outline>
+        <outline text="Chapter 3: Dynamics, of “&lt;a href=&quot;http://clux.x-pec.com/files/fronter/ENE103%20-%20Reguleringsteknikk/fagstoff/suplement%20Reg%20tek%20engelsk%20.pdf&quot;&gt;Control System Design&lt;/a&gt;” by Karl Astrom is excellent.">
+          <outline text="see also: &quot;&lt;a href=&quot;http://www.cds.caltech.edu/~murray/books/AM05/pdf/am08-complete_22Feb09.pdf&quot;&gt;Chapter 2. System Modeling&lt;/a&gt;&quot; from &quot;Feedback Control&quot; by Karl Astrom" />
+        </outline>
+        <outline text="&quot;&lt;a href=&quot;https://web.stanford.edu/~boyd/lmibook/lmibook.pdf&quot;&gt;Linear Matrix Inequalities in System and Control Theory&lt;/a&gt;&quot; by Stephen Boyd">
+          <outline text="excellent for constrained controller design" />
+        </outline>
+      </outline>
+      <outline text="experimental design / (model-based) stimulus optimization">
+        <outline text="&quot;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/20556641/&quot;&gt;Automating the design of informative sequences of sensory stimuli&lt;/a&gt;&quot; Lewi et al." />
+        <outline text="“&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/17925266/&quot;&gt;Statistical models for neural encoding, decoding, and optimal stimulus design.&lt;/a&gt;” Paninski, Pillow, Lewi" />
+      </outline>
+      <outline text="&lt;i&gt;Other reference lists:&lt;/i&gt;">
+        <outline text="Siplab Dynamics Zotero group (please email to request access): ">
+          <outline text="&lt;a href=&quot;https://www.zotero.org/groups/2174905/siplab&quot;&gt;https://www.zotero.org/groups/2174905/siplab&lt;/a&gt;" />
+        </outline>
+        <outline text="Some slides on interpretation of neural systems as dynamical systems which compute are presented here:">
+          <outline text="&lt;a href=&quot;https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021&quot;&gt;Dynamics In Neuro Lectures&lt;/a&gt;" />
+        </outline>
+        <outline text="High-level references for understanding dynamics in neuro">
+          <outline text="&quot;&lt;a href=&quot;http://www.rctn.org/vs265/sussillo-dynamical-systems-curropin.pdf&quot;&gt;Neural circuits as computational dynamical systems&lt;/a&gt;&quot; (2014) Sussillo" />
+          <outline text="“&lt;a href=&quot;https://www.jneurosci.org/content/jneuro/38/44/9390.full.pdf&quot;&gt;Latent Factors and Dynamics in Motor Cortex and Their Application to Brain–Machine Interfaces&lt;/a&gt;“ (2018) Pandarinath et al." />
+          <outline text="&quot;&lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007442&quot;&gt;Neural field models for latent state inference: Application to large-scale neuronal recordings&lt;/a&gt;&quot; (2019) Rule et al." />
+          <outline text="“&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-092619-094115&quot;&gt;Computation through Neural Population Dynamics&lt;/a&gt;” (2020) Vyas et al." />
+        </outline>
+        <outline text="Textbooks">
+          <outline text="&lt;a href=&quot;https://neuronaldynamics.epfl.ch/index.html&quot;&gt;Neuronal Dynamics &lt;/a&gt;- Gerstner et al. ">
+            <outline text="Has video lectures and python exercises" />
+            <outline text="Covers a lot of math very clearly" />
+          </outline>
+          <outline text="“&lt;a href=&quot;http://www.databookuw.com/&quot;&gt;Data Driven Science &amp;amp; Engineering Machine Learning, Dynamical Systems, and Control&quot;&lt;/a&gt; Brunton &amp;amp; Kutz " />
+          <outline text="&quot;&lt;a href=&quot;https://probml.github.io/pml-book/&quot;&gt;Probabilistic Machine Learning&lt;/a&gt;&quot; - a book series by Kevin Murphy">
+            <outline text="has an associated codebase of tools: &lt;a href=&quot;https://github.com/probml/pyprobml/&quot;&gt;https://github.com/probml/pyprobml/&lt;/a&gt; ">
+              <outline text="prior toolbox:" />
+            </outline>
+          </outline>
+          <outline _complete="true" text="Nonlinear Dynamics and Chaos - Strogatz" />
+          <outline _complete="true" text="“&lt;a href=&quot;https://www.hse.ru/data/2011/06/22/1215686482/Neuroscience.pdf&quot;&gt;Neuroscience&lt;/a&gt;” (2004) Purves et al" />
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>
