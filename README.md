@@ -49,8 +49,8 @@
 ### 
 
 
-<details>
-<summary>### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow </summary>
+### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow 
+<details><summary>(...)</summary>
     
 - [part 1](https://youtu.be/NFeGW5ljUoI)
 
