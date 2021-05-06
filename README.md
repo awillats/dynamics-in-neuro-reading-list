@@ -47,7 +47,10 @@
 ### 
 
 ### 
-
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
 ### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow
 
 - [part 1](https://youtu.be/NFeGW5ljUoI)
