@@ -9,17 +9,17 @@
 ### I’ve marked papers I find to be especially useful with \[++\] or \[+\]
 
 ### see the collapsible version of this list here: [\[collapsible outline\]](https://workflowy.com/s/dynamical-systems-in/WntWnBHaHsS9lwM4)
-
+<!-- https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki -->
 Table of Conents:
-[Shortlist]()
-[Overviews]()
-[Model types]()
-[State estimations]()
-[System identification]()
-[Software tools]()
-[Control]()
-[Stimulus optimization]()
-[Misc.]()
+[Shortlist](#shortlist----i-only-have-time-to-read-5-papers)
+[Overviews](#high-level---overviews-reviews-tutorials)
+[Model types](#state-space-dynamical-systems-model-types-commonly-used-in-neuro)
+[State estimations](#latent-state-estimation-in-neuro)
+[System identification](#system-identification---fitting-lds-models)
+[Software tools](#software-tools-for-dynamical-systems)
+[Control](#resources-for-understanding-dynamical-systems-in-control)
+[Stimulus optimization](#experimental-design--model-based-stimulus-optimization)
+[Misc.](#other-reference-lists)
 
 
 # **Shortlist** - " I only have time to read 5 papers"
