@@ -2,33 +2,33 @@
 
 # Scope:
 
-## This reading list is mostly centered around the practical application of linear dynamical systems models to predict neural data.
+### This reading list is mostly centered around the practical application of linear dynamical systems models to predict neural data.
 
-## I’ve marked papers I find to be especially useful with \[++\] or \[+\]
+### I’ve marked papers I find to be especially useful with \[++\] or \[+\]
 
 # **Shortlist** - " I only have time to read 5 papers"
 
-## \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
+### \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
 
-## \[++\] "[Empirical](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[models](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[of spiking in neural populations](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)" (2011) Macke et al.
+### \[++\] "[Empirical](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[models](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[of spiking in neural populations](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)" (2011) Macke et al.
 
-## \[++\] "[Selective modulation of cortical state during spatial attention](https://science.sciencemag.org/content/354/6316/1140)" (2016) Engel et al.
+### \[++\] "[Selective modulation of cortical state during spatial attention](https://science.sciencemag.org/content/354/6316/1140)" (2016) Engel et al.
 
 - [\[Supplement\]](https://science.sciencemag.org/content/sci/suppl/2016/12/01/354.6316.1140.DC1/Engel-SM.pdf) contains excellent methods details, including comparison of HMM to GPFA, and measuring performance as a function of number of discrete states
 
-## \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
+### \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
 
-## \[+\] "[Multiscale modeling and decoding algorithms for spike-field activity](https://pubmed.ncbi.nlm.nih.gov/30523833/)" Hsieh … Shanechi
+### \[+\] "[Multiscale modeling and decoding algorithms for spike-field activity](https://pubmed.ncbi.nlm.nih.gov/30523833/)" Hsieh … Shanechi
 
-## [ldsCtrlEst:](https://github.com/lindermanlab/ssm) dynamical system estimation & control library - Stanley Rozell labs:[\[docs\]](https://stanley-rozell.github.io/lds-ctrl-est/) [\[code\]](https://github.com/stanley-rozell/lds-ctrl-est)
+### [ldsCtrlEst:](https://github.com/lindermanlab/ssm) dynamical system estimation & control library - Stanley Rozell labs:[\[docs\]](https://stanley-rozell.github.io/lds-ctrl-est/) [\[code\]](https://github.com/stanley-rozell/lds-ctrl-est)
 
 - primarily focused on implementing dynamical systems within systems neuroscience experiments
 
 # **High Level - Overviews, Reviews, Tutorials**
 
-## \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
+### \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
 
-## "[State-Space Models for the Analysis of Neural Spike Train and Behavioral Data](https://link.springer.com/referenceworkentry/10.1007%2F978-1-4614-7320-6_410-1)" (2016) Chen & Brown
+### "[State-Space Models for the Analysis of Neural Spike Train and Behavioral Data](https://link.springer.com/referenceworkentry/10.1007%2F978-1-4614-7320-6_410-1)" (2016) Chen & Brown
 
 - see also:
 
@@ -38,17 +38,17 @@
 
         - "[Estimating a state-space model from point process observations](https://pubmed.ncbi.nlm.nih.gov/12803953/)" (2003) Smith, Brown
 
-## \[+\] "[State-Space Models](State%20space%20model)" (2013) scholarpedia page by Chen & Brown
+### \[+\] "[State-Space Models](State%20space%20model)" (2013) scholarpedia page by Chen & Brown
 
 - discusses model variants, fitting, applications
 
 - has lots of great references
 
-##
+### 
 
-##
+### 
 
-## [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow
+### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow
 
 - [part 1](https://youtu.be/NFeGW5ljUoI)
 
@@ -58,7 +58,7 @@
 
 - [code](https://github.com/pillowlab/GLMspiketraintutorial)
 
-## "[STATS320: Machine Learning Methods for Neural Data Analysis](https://github.com/slinderman/stats320)" course by Scott Linderman
+### "[STATS320: Machine Learning Methods for Neural Data Analysis](https://github.com/slinderman/stats320)" course by Scott Linderman
 
 - includes code labs:
 
@@ -78,7 +78,7 @@
 
     - [SLDS: Switching LDS model of neural data](https://colab.research.google.com/github/slinderman/stats320/blob/main/labs/Lab_8_Latent_Variable_Models,_Variational_EM,_and_Worm_Brains.ipynb)
 
-## "[Math Tools for Neuroscience](https://github.com/ebatty/MathToolsforNeuroscience)" - Ella Batty
+### "[Math Tools for Neuroscience](https://github.com/ebatty/MathToolsforNeuroscience)" - Ella Batty
 
 - video lectures & code tutorials
 
@@ -86,11 +86,11 @@
 
 - see especially: Intro to dynamical systems
 
-## "[Introduction to Dynamical Systems](https://youtu.be/bf1264iFr-w)" lecture by Stephen Boyd
+### "[Introduction to Dynamical Systems](https://youtu.be/bf1264iFr-w)" lecture by Stephen Boyd
 
-##
+### 
 
-## additional tutorials on dynamical systems (unvetted)
+### additional tutorials on dynamical systems (unvetted)
 
 - [Tutorial on Dynamical System](https://cs.brown.edu/research/ai/dynamics/tutorial/Documents/LearningDynamicalSystems.html)s by Dean, Leach, Shatkay @ Brown University
 
@@ -98,15 +98,15 @@
 
 # **State-space, dynamical systems model types** commonly used in neuro
 
-## Note: Most of these approaches fall under the umbrella of “state space models” (SSM)
+### Note: Most of these approaches fall under the umbrella of “state space models” (SSM)
 
 - (see high-level section)
 
 - This list was assisted / inspired by tables I saw at COSYNE, I believe from [Adam Calhoun](https://twitter.com/neuroecology?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) and [Memming Park](https://twitter.com/memming)
 
-##
+### 
 
-## Gaussian Process Factor Analysis **(GPFA)**
+### Gaussian Process Factor Analysis **(GPFA)**
 
 - primarily used for dimensionality reduction
 
@@ -116,7 +116,7 @@
 
 - [“Tutorial: GPFA (Gaussian Process Factor Analysis)”](https://elephant.readthedocs.io/en/latest/tutorials/gpfa.html)
 
-## Hidden Markov Models **(HMM)**
+### Hidden Markov Models **(HMM)**
 
 - \[++\] "[Hidden Markov Models for the Stimulus-Response Relationships of Multistate Neural Systems](https://direct.mit.edu/neco/article/23/5/1071/7663/Hidden-Markov-Models-for-the-Stimulus-Response)" Escola et al.
 
@@ -132,7 +132,7 @@
 
     - also covers Gaussian (obsv.) HMM
 
--
+- 
 
 - HMM + guassian observation **(GaussianHMM)**
 
@@ -142,7 +142,7 @@
 
         - "[HMM & gaussian mixture models](https://www.inf.ed.ac.uk/teaching/courses/asr/2016-17/asr03-hmmgmm-handout.pdf)" lecture notes by Shimodaira & Renals
 
-## linear dynamical systems **(LDS)**
+### linear dynamical systems **(LDS)**
 
 - Gaussian observations **(GLDS)**
 
@@ -174,9 +174,9 @@
 
         - "[Recurrent Switching Linear Dynamical Systems for Neural and Behavioral Analysis](https://youtu.be/6E99BByFvtU)" talk by Linderman
 
--
+- 
 
-## nonlinear / nonparametric / variational approaches **(vLGP, LFADS)**
+### nonlinear / nonparametric / variational approaches **(vLGP, LFADS)**
 
 - variational latent gaussian process **(vLGP)**
 
@@ -202,19 +202,19 @@
 
 # (Latent-state) **estimation** in neuro
 
-## SSPPF - a kalman filter for point-process / spiking
+### SSPPF - a kalman filter for point-process / spiking
 
 - \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
 
 - "[Estimating a state-space model from point process observations](https://pubmed.ncbi.nlm.nih.gov/12803953/)" (2003) Smith, Brown
 
-## estimation from spikes + local field potentials (LFP)
+### estimation from spikes + local field potentials (LFP)
 
 - \[+\] "[Multiscale modeling and decoding algorithms for spike-field activity](https://pubmed.ncbi.nlm.nih.gov/30523833/)" Hsieh … Shanechi
 
 # **System identification** - fitting LDS models:
 
-## overviews:
+### overviews:
 
 - “System Identification” Lennary Ljung - canonical text on system ID, author is the architect of MATLAB’s sys ID toolbox
 
@@ -228,7 +228,7 @@
 
 - "[Subspace Identification for Linear Systems](v)" (1996) Van Overschee & De Moor
 
--
+- 
 
 - "[System Identification Methods](https://youtu.be/YiJRgKJ0My8)" by Brian Douglas, a practical, control-focused overview in easy-to-understand terms
 
@@ -244,7 +244,7 @@
 
     - lecture notes: [\[link\]](http://www.publications.pvandenhof.nl/5SMB0/ManuscrSysid_Febr2020.pdf)
 
-## application in neuro:
+### application in neuro:
 
 - "[Estimating state and parameters in state space models of spike trains](https://books.google.com/books?hl=en&lr=&id=1Z2NCgAAQBAJ&oi=fnd&pg=PA137&dq=info:Vk13wLtuAuwJ:scholar.google.com&ots=mEpNFjdcd9&sig=t__tJD-FAdvvCD2DxdmXBUCbLvo#v=onepage&q&f=false)" Macke, Buesing, Sahani
 
@@ -264,7 +264,7 @@
 
 - "[Variational EM for SLDS (switching linear dynamical systems](https://github.com/slinderman/stats320/blob/main/lectures/lecture14.pdf))" Lecture by Linderman
 
-## contstrained & regularized LDS identification
+### contstrained & regularized LDS identification
 
 - \[++\] "[Learning stable, regularised latent models of neural population dynamics](https://pubmed.ncbi.nlm.nih.gov/22663075/)" Buesing, Macke, Sahani
 
@@ -274,11 +274,11 @@
 
 - "[Learning Linear Dynamical Systems from Multivariate Time Series: A Matrix Factorization Based Framework](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974348.91)" Liu and Hauskrecht
 
-#
+# 
 
 # **Software tools for dynamical systems**
 
-## useful functions in MATLAB
+### useful functions in MATLAB
 
 - [`ss()`](https://www.mathworks.com/help/control/ref/ss.html) to build models
 
@@ -294,7 +294,7 @@
 
 - [`eig`,](https://www.mathworks.com/help/matlab/ref/eig.html?searchHighlight=eig&s_tid=srchtitle) [`pzmap`](https://www.mathworks.com/help/control/ref/lti.pzmap.html?searchHighlight=pzmap&s_tid=srchtitle) for inspecting eignevalues (and eigenvectors) of a system
 
-## Other software for dynamical system modeling (mostly Python)
+### Other software for dynamical system modeling (mostly Python)
 
 - [ldsCtrlEst:](https://github.com/lindermanlab/ssm) dynamical system estimation & control library - Stanley Rozell labs:[\[docs\]](https://stanley-rozell.github.io/lds-ctrl-est/) [\[code\]](https://github.com/stanley-rozell/lds-ctrl-est)
 
@@ -316,15 +316,15 @@
 
     - example script: [PLDSExample.m](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/examples/PLDSExample.m)
 
--
+- 
 
--
+- 
 
 - [slinderman](https://github.com/slinderman)/[recurrent-slds](https://github.com/slinderman/recurrent-slds):
 
     - may be redundant with lindermanlab/ssm
 
--
+- 
 
 - [SSIDforPLDS:](https://bitbucket.org/larsbuesing/ssidforplds/src/master/) Subspace Identification for Poisson Linear Dynamical system
 
@@ -336,17 +336,17 @@
 
 - [autohmm](https://github.com/mackelab/autohmm): packages provides an implementation of Hidden Markov Models (HMMs) with tied states and autoregressive observations, written in Python
 
--
+- 
 
-#
+# 
 
 # resources for understanding dynamical systems **in control**
 
-## [UMich - Control tutorials for MATLAB and Simulink](https://ctms.engin.umich.edu/CTMS/index.php?aux=Home)
+### [UMich - Control tutorials for MATLAB and Simulink](https://ctms.engin.umich.edu/CTMS/index.php?aux=Home)
 
 -  these controls tutorials by UMich are excellent, and involve some discussion of state-space representation of dynamical systems
 
-## [Nonlinear control lectures - Slotine @ MIT](http://web.mit.edu/nsl/www/videos/lectures.html)
+### [Nonlinear control lectures - Slotine @ MIT](http://web.mit.edu/nsl/www/videos/lectures.html)
 
 - good at bridging the intuitive and mathematical concepts
 
@@ -356,31 +356,31 @@
 
     - robust & adaptive control
 
-## Chapter 3: Dynamics, of “[Control System Design](http://clux.x-pec.com/files/fronter/ENE103%20-%20Reguleringsteknikk/fagstoff/suplement%20Reg%20tek%20engelsk%20.pdf)” by Karl Astrom is excellent.
+### Chapter 3: Dynamics, of “[Control System Design](http://clux.x-pec.com/files/fronter/ENE103%20-%20Reguleringsteknikk/fagstoff/suplement%20Reg%20tek%20engelsk%20.pdf)” by Karl Astrom is excellent.
 
 - see also: "[Chapter 2. System Modeling](http://www.cds.caltech.edu/~murray/books/AM05/pdf/am08-complete_22Feb09.pdf)" from “Feedback Control” by Karl Astrom
 
-## "[Linear Matrix Inequalities in System and Control Theory](https://web.stanford.edu/~boyd/lmibook/lmibook.pdf)" by Stephen Boyd
+### "[Linear Matrix Inequalities in System and Control Theory](https://web.stanford.edu/~boyd/lmibook/lmibook.pdf)" by Stephen Boyd
 
 - excellent for constrained controller design
 
 # experimental design / (model-based) stimulus optimization
 
-## "[Automating the design of informative sequences of sensory stimuli](https://pubmed.ncbi.nlm.nih.gov/20556641/)" Lewi et al.
+### "[Automating the design of informative sequences of sensory stimuli](https://pubmed.ncbi.nlm.nih.gov/20556641/)" Lewi et al.
 
-## “[Statistical models for neural encoding, decoding, and optimal stimulus design.](https://pubmed.ncbi.nlm.nih.gov/17925266/)” Paninski, Pillow, Lewi
+### “[Statistical models for neural encoding, decoding, and optimal stimulus design.](https://pubmed.ncbi.nlm.nih.gov/17925266/)” Paninski, Pillow, Lewi
 
 # *Other reference lists:*
 
-## Siplab Dynamics Zotero group (please email to request access):
+### Siplab Dynamics Zotero group (please email to request access):
 
 - <https://www.zotero.org/groups/2174905/siplab>
 
-## Some slides on interpretation of neural systems as dynamical systems which compute are presented here:
+### Some slides on interpretation of neural systems as dynamical systems which compute are presented here:
 
 - [Dynamics In Neuro Lectures](https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021)
 
-## High-level references for understanding dynamics in neuro
+### High-level references for understanding dynamics in neuro
 
 - "[Neural circuits as computational dynamical systems](http://www.rctn.org/vs265/sussillo-dynamical-systems-curropin.pdf)" (2014) Sussillo
 
@@ -390,7 +390,7 @@
 
 - “[Computation through Neural Population Dynamics](https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-092619-094115)” (2020) Vyas et al.
 
-## Textbooks
+### Textbooks
 
 - [Neuronal Dynamics](https://neuronaldynamics.epfl.ch/index.html)- Gerstner et al.
 
