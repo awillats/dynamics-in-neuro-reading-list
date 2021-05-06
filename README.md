@@ -1,4 +1,5 @@
 # **Dynamical Systems (in Neuro) Reading List**
+[![DOI](https://zenodo.org/badge/364658215.svg)](https://zenodo.org/badge/latestdoi/364658215)
 
 <img src="https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png" width="400">
 
