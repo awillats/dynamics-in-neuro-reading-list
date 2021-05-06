@@ -9,6 +9,94 @@
 
 ### I’ve marked papers I find to be especially useful with \[++\] or \[+\]
 
+- Scope:
+  - This reading list is mostly centered around the practical application of linear dynamical systems models to predict neural data.
+  - I've marked papers I find to be especially useful with [++] or [+] 
+- Shortlist - " I only have time to read 5 papers" 
+  - [++] "A new look at state-space models for neural data" (2010) Paninski et al.
+  - [++] "Empirical models of spiking in neural populations" (2011) Macke et al.
+  - [++] "Selective modulation of cortical state during spatial attention" (2016) Engel et al.
+    - [Supplement] contains excellent methods details, including comparison of HMM to GPFA, and measuring performance as a function of number of discrete states
+  - [++] "Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering" (2004) Eden et al.
+  - [+] "Multiscale modeling and decoding algorithms for spike-field activity" Hsieh ... Shanechi
+  - ldsCtrlEst: dynamical system estimation & control library - Stanley Rozell labs:[docs] [code]
+    - primarily focused on implementing dynamical systems within systems neuroscience experiments
+- High Level - Overviews, Reviews, Tutorials
+  - [++] "A new look at state-space models for neural data" (2010) Paninski et al.
+  - "State-Space Models for the Analysis of Neural Spike Train and Behavioral Data" (2016) Chen & Brown
+    - see also:
+      - SSPPF - a kalman filter for point-process / spiking
+        - [++] "Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering" (2004) Eden et al.
+        - "Estimating a state-space model from point process observations" (2003) Smith, Brown
+  - [+] "State-Space Models" (2013) scholarpedia page by Chen & Brown
+    - discusses model variants, fitting, applications
+    - has lots of great references
+  - 
+  -    
+  - Tutorial: Statistical models for neural data - Jonathan Pillow 
+    - part 1
+    - part 2
+    - slides
+    - code
+  - "STATS320: Machine Learning Methods for Neural Data Analysis" course by Scott Linderman
+    - includes code labs:
+      - A simple spike sorting algorithm
+      - Kilosort: Spike sorting by Deconvolution 
+      - CNMF: Calcium deconvolution via constrained NMF
+      - DeepLabCut: Markerless pose tracking with CNNs
+      - DeepRetina: Deep encoding models of retinal spike trains
+      - Kalman Smoothers: Decoding movement from neural data
+      - MoSeq: Autoregressive HMMs for animal movements 
+      - SLDS: Switching LDS model of neural data
+  - "Math Tools for Neuroscience" - Ella Batty
+    - video lectures & code tutorials
+    - great visual explanations
+    - see especially: Intro to dynamical systems  
+  - "Introduction to Dynamical Systems" lecture by Stephen Boyd 
+  - 
+  - additional tutorials on dynamical systems (unvetted)
+    - Tutorial on Dynamical Systems by Dean, Leach, Shatkay @ Brown University
+    - Dynamical Systems Tutorial by Gregor Schöner
+- State-space, dynamical systems model types commonly used in neuro
+  - Note: Most of these approaches fall under the umbrella of "state space models" (SSM)
+    - (see high-level section)
+    - This list was assisted / inspired by tables I saw at COSYNE, I believe from Adam Calhoun and Memming Park
+  - 
+  - Gaussian Process Factor Analysis (GPFA)
+    - primarily used for dimensionality reduction
+    - [++] "Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity" (2009) Yu et al.
+    - "Temporal alignment and latent Gaussian process factor inference in population spike trains" Duncker & Sahani
+    - "Tutorial: GPFA (Gaussian Process Factor Analysis)"
+  - Hidden Markov Models (HMM)
+    - [++] "Hidden Markov Models for the Stimulus-Response Relationships of Multistate Neural Systems" Escola et al.
+      - extensive, tutorial style paper
+    - [++] "Selective modulation of cortical state during spatial attention" (2016) Engel et al.
+      - [Supplement] contains excellent methods details, including comparison of HMM to GPFA, and measuring performance as a function of number of discrete states
+    - "Lecture 12: EM and Hidden Markov Models" - Linderman
+      - from Machine Learning Methods for Neural Data Analysis
+      - also covers Gaussian (obsv.) HMM
+    - 
+    - HMM + guassian observation (GaussianHMM)
+      - matlab [code] +[notes] (covers HMM, gHMM, GMM-HMM) - by Qiuqiang Kong
+      - HMM + mixture of gaussian observations (GMM-HMM)
+        - "HMM & gaussian mixture models" lecture notes by Shimodaira & Renals
+  - linear dynamical systems (LDS)  
+    - Gaussian observations (GLDS)
+    - Poisson observations (PLDS)
+      - [++] "Empirical models of spiking in neural populations" (2011) Macke et al.
+      - fitting toolbox:
+        - pop_spike_dyn:This repository contains different methods for linear dynamical system models with Poisson observations.
+          - example script: PLDSExample.m
+    - generalized count (GC LDS) and nonlinear function (fLDS)
+      - "High-dimensional neural spike train analysis with generalized count linear dynamical systems" (2015) Gao et al.
+      - "Linear dynamical neural population models through nonlinear embeddings"  (2016) Gao et al. 
+    - Switched dynamical systems (SLDS) - switches between multiple LDS models to capture distinct regimes of dynamical behavior
+      - [+] "Dynamical segmentation of single trials from population neural data" Petreska et al.
+      - Recurrent SLDS (rSLDS)
+        - "The recurrent SLDS introduces an additional dependency between the discrete and continuous latent states, allowing the discrete state probability to depend upon the previous continuous state" - Linderman
+        - [++] "Recurrent switching linear dynamical systems" Linderman et al.
+        - "Recurrent Switching Linear Dynamical Systems for Neural and Behavioral Analysis" talk by Linderman
+
 ## **Shortlist** - " I only have time to read 5 papers"
 
 ### \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
