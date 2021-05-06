@@ -2,7 +2,7 @@
 
 <img src="https://github.com/awillats/Dynamics_In_Neuro_Lectures_2021/blob/main/imgs/dyn_brain_loop.png" alt="dynamic brain" width="400/"/>
 
-`test()` and also a [`test()`](google.com) and finally `[test](google.com)`
+- [`ss()`](https://www.mathworks.com/help/control/ref/ss.html) to build models
 ## Scope:
 
 ### This reading list is mostly centered around the practical application of linear dynamical systems models to predict neural data.
