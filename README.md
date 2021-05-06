@@ -11,19 +11,19 @@
 
 ## **Shortlist** - " I only have time to read 5 papers"
 
-### \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
+- \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
 
-### \[++\] "[Empirical](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf) [](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf) [models](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf) [of spiking in neural populations](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)" (2011) Macke et al.
+- \[++\] "[Empirical](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf) [](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf) [models](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf) [of spiking in neural populations](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)" (2011) Macke et al.
 
-### \[++\] "[Selective modulation of cortical state during spatial attention](https://science.sciencemag.org/content/354/6316/1140)" (2016) Engel et al.
+- \[++\] "[Selective modulation of cortical state during spatial attention](https://science.sciencemag.org/content/354/6316/1140)" (2016) Engel et al.
 
-#### [\[Supplement\]](https://science.sciencemag.org/content/sci/suppl/2016/12/01/354.6316.1140.DC1/Engel-SM.pdf) contains excellent methods details, including comparison of HMM to GPFA, and measuring performance as a function of number of discrete states
+  - [\[Supplement\]](https://science.sciencemag.org/content/sci/suppl/2016/12/01/354.6316.1140.DC1/Engel-SM.pdf) contains excellent methods details, including comparison of HMM to GPFA, and measuring performance as a function of number of discrete states
 
-### \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
+- \[++\] "[Dynamic Analysis of Neural Encoding by Point Process Adaptive Filtering](https://pubmed.ncbi.nlm.nih.gov/15070506/)" (2004) Eden et al.
 
-### \[+\] "[Multiscale modeling and decoding algorithms for spike-field activity](https://pubmed.ncbi.nlm.nih.gov/30523833/)" Hsieh … Shanechi
+- \[+\] "[Multiscale modeling and decoding algorithms for spike-field activity](https://pubmed.ncbi.nlm.nih.gov/30523833/)" Hsieh … Shanechi
 
-### [ldsCtrlEst:](https://github.com/lindermanlab/ssm) dynamical system estimation & control library - Stanley Rozell labs:[\[docs\]](https://stanley-rozell.github.io/lds-ctrl-est/) [\[code\]](https://github.com/stanley-rozell/lds-ctrl-est)
+- [ldsCtrlEst:](https://github.com/lindermanlab/ssm) dynamical system estimation & control library - Stanley Rozell labs:[\[docs\]](https://stanley-rozell.github.io/lds-ctrl-est/) [\[code\]](https://github.com/stanley-rozell/lds-ctrl-est)
 
 #### primarily focused on implementing dynamical systems within systems neuroscience experiments
 
