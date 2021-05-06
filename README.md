@@ -154,7 +154,7 @@
 
         - [pop\_spike\_dyn:](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/)This repository contains different methods for linear dynamical system models with Poisson observations.
 
-####### example script: [PLDSExample.m](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/examples/PLDSExample.m)
+            - example script: [PLDSExample.m](https://bitbucket.org/mackelab/pop_spike_dyn/src/master/examples/PLDSExample.m)
 
 - generalized count **(GC LDS)** and nonlinear function **(fLDS)**
 
