@@ -15,13 +15,13 @@
 
 * [Shortlist](#shortlist----i-only-have-time-to-read-5-papers)
 * [Overviews](#high-level---overviews-reviews-tutorials)
-** [Model types](#state-space-dynamical-systems-model-types-commonly-used-in-neuro)
-** [State estimations](#latent-state-estimation-in-neuro)
-** [System identification](#system-identification---fitting-lds-models)
-** [Software tools](#software-tools-for-dynamical-systems)
-** [Control](#resources-for-understanding-dynamical-systems-in-control)
-** [Stimulus optimization](#experimental-design--model-based-stimulus-optimization)
-** [Misc.](#other-reference-lists)
+* [Model types](#state-space-dynamical-systems-model-types-commonly-used-in-neuro)
+* [State estimations](#latent-state-estimation-in-neuro)
+* [System identification](#system-identification---fitting-lds-models)
+* [Software tools](#software-tools-for-dynamical-systems)
+* [Control](#resources-for-understanding-dynamical-systems-in-control)
+* [Stimulus optimization](#experimental-design--model-based-stimulus-optimization)
+* [Misc.](#other-reference-lists)
 
 
 # **Shortlist** - " I only have time to read 5 papers"
