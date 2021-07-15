@@ -60,6 +60,11 @@
 
 - has lots of great references
 
+### [Neuromatch Tutorial: Dynamical Systems in Neuro.](https://compneuro.neuromatch.io/tutorials/W2D2_LinearSystems/W2D2_Intro.html)
+- video lectures + slides
+- accompanying python tutorial
+- See also a [Brain Inspired podcast episode](https://braininspired.co/podcast/nma-2/) with some of the experts from that course
+
 ### [Tutorial: Statistical models for neural data](https://youtu.be/NFeGW5ljUoI) - Jonathan Pillow \[[part 1](https://youtu.be/NFeGW5ljUoI)\] \[[part 2](https://youtu.be/rItGnzSHLcQ)\] \[[slides](https://pillowlab.princeton.edu/pubs/pillow_TutorialSlides_Cosyne2018.pdf)\] \[[code](https://github.com/pillowlab/GLMspiketraintutorial)\]
 
 ### "[STATS320: Machine Learning Methods for Neural Data Analysis](https://github.com/slinderman/stats320)" course by Scott Linderman
