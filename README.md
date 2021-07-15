@@ -60,7 +60,7 @@
 
 - has lots of great references
 
-### [Neuromatch Tutorial: Dynamical Systems in Neuro.](https://compneuro.neuromatch.io/tutorials/W2D2_LinearSystems/W2D2_Intro.html)
+### [+] [Neuromatch Tutorial: Dynamical Systems in Neuro.](https://compneuro.neuromatch.io/tutorials/W2D2_LinearSystems/W2D2_Intro.html)
 - video lectures + slides
 - accompanying python tutorial
 - See also a [Brain Inspired podcast episode](https://braininspired.co/podcast/nma-2/) with some of the experts from that course
