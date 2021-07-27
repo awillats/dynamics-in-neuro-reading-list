@@ -196,6 +196,7 @@
 - Latent Factor Analysis via Dynamical Systems **(LFADS)**
 
     - \[++\] "[LFADS - Latent Factor Analysis via Dynamical Systems](https://arxiv.org/abs/1608.06315)" Sussillo et al. [\[code & documentation\]](https://lfads.github.io/lfads-run-manager/)
+    - [LFADS tutorial](https://github.com/google-research/computation-thru-dynamics/blob/master/notebooks/LFADS%20Tutorial.ipynb) from the ["Computation through Dynamics" group](https://github.com/google-research/computation-thru-dynamics)
 
         - "[Inferring single-trial neural population dynamics using sequential auto-encoders](https://www.nature.com/articles/s41592-018-0109-9)" Pandarinath et al.
 
