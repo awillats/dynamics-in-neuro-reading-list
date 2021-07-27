@@ -111,6 +111,8 @@
 
 - This list was assisted / inspired by tables I saw at COSYNE, I believe from [Adam Calhoun](https://twitter.com/neuroecology?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) and [Memming Park](https://twitter.com/memming)
 
+- See [[Dimensionality reduction in neural data analysis]] by Patrick Minaeult for a broad and well-motivated discussion of techniques for dimensionality reduction (including dynamical systems) including a recap of taxonomies of models assembled by Cunninham, Park, and Hurwitz et al.
+
 ### Gaussian Process Factor Analysis **(GPFA)**
 
 - primarily used for dimensionality reduction
