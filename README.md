@@ -338,6 +338,10 @@
 
 -  these controls tutorials by UMich are excellent, and involve some discussion of state-space representation of dynamical systems
 
+### [Feedback Systems: An Introduction for Scientists and Engineers](https://fbswiki.org/wiki/index.php/Main_Page) - by Åström and Murray
+
+- [Python Control Systems Library](https://python-control.readthedocs.io/en/0.9.0/examples.html) a toolbox for analysis and design of feedback control systems as well as demos for several exercises from "Feedback Systems" mentioned above
+
 ### [Nonlinear control lectures - Slotine @ MIT](http://web.mit.edu/nsl/www/videos/lectures.html)
 
 - good at bridging the intuitive and mathematical concepts
