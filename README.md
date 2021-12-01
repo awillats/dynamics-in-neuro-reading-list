@@ -28,7 +28,7 @@
 
 ### \[++\] "[A new look at state-space models for neural data](https://link.springer.com/article/10.1007/s10827-009-0179-x)" (2010) Paninski et al.
 
-### \[++\] "[Empirical](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[models](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[of spiking in neural populations](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)" (2011) Macke et al.
+### \[++\] "[Empirical ](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[models ](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)[of spiking in neural populations ](https://papers.nips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf)" (2011) Macke et al.
 
 ### \[++\] "[Selective modulation of cortical state during spatial attention](https://science.sciencemag.org/content/354/6316/1140)" (2016) Engel et al.
 
